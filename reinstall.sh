@@ -5,7 +5,7 @@
 set -eE
 confhome=https://raw.githubusercontent.com/yazaku/reinstall/main
 #confhome_cn=https://cnb.cool/yaziku/reinstall/-/git/raw/main
-confhome_cn=https://www.ghproxy.net/https://raw.githubusercontent.com/yaziku/reinstall/main
+confhome_cn=https://ghproxy.net/https://raw.githubusercontent.com/yaziku/reinstall/main
 
 # 默认密码
 DEFAULT_PASSWORD=123...
