@@ -6157,7 +6157,7 @@ EOF
         baseurl=https://fedorapeople.org/groups/virt/virtio-win/direct-downloads
 
         if [ "$virtio_source" = iso ]; then
-            download $baseurl/$dir/virtio-win.iso $drv/virtio.iso
+            download http://47.107.146.210:8866/d/virtio-win-0.1.190.iso $drv/virtio.iso
             mkdir -p $drv/virtio
             mount -o ro $drv/virtio.iso $drv/virtio
 
